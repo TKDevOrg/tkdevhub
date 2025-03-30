@@ -1,4 +1,3 @@
-
 import React from 'react';
 import Layout from '@/components/Layout';
 import { Card, CardContent } from '@/components/ui/card';
@@ -8,39 +7,43 @@ import { Github, Linkedin } from 'lucide-react';
 const teamMembers = [
   {
     name: 'Eugene Vincent',
-    role: 'Founder & CEO',
+    role: 'Co-Founder & Software Engineer',
     image: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-    initials: 'EV'
+    initials: 'EV',
+    github: 'https://github.com/eugenevincent', // Add actual GitHub link
+    linkedin: 'https://www.linkedin.com/in/eugenevincent/', // Add actual LinkedIn link
   },
   {
     name: 'Raja Balaji',
-    role: 'CTO',
+    role: 'Co-Founder & Software Engineer',
     image: 'https://images.unsplash.com/photo-1568602471122-7832951cc4c5?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-    initials: 'RB'
+    initials: 'RB',
+    github: 'https://github.com/rajabalaji', // Add actual GitHub link
+    linkedin: 'https://www.linkedin.com/in/rajabalaji/', // Add actual LinkedIn link
   },
   {
     name: 'Maksatjan Jorayev',
-    role: 'Lead Software Engineer',
+    role: 'Software Engineer',
     image: 'https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-    initials: 'MJ'
-  },
-  {
-    name: 'Sidhant Parashar',
-    role: 'Full Stack Developer',
-    image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-    initials: 'SP'
+    initials: 'MJ',
+    github: 'https://github.com/maksatjanjorayev', // Add actual GitHub link
+    linkedin: 'https://www.linkedin.com/in/maksatjanjorayev/', // Add actual LinkedIn link
   },
   {
     name: 'Nesan Venkatesan',
     role: 'UX/UI Designer',
     image: 'https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-    initials: 'NV'
+    initials: 'NV',
+    github: 'https://github.com/nesanvenkatesan', // Add actual GitHub link
+    linkedin: 'https://www.linkedin.com/in/nesanvenkatesan/', // Add actual LinkedIn link
   },
-  {
+    {
     name: 'Tushar Iyer',
     role: 'Product Manager',
     image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-    initials: 'TI'
+    initials: 'TI',
+    github: 'https://github.com/tushariyer', // Add actual GitHub link
+    linkedin: 'https://www.linkedin.com/in/tushariyer/', // Add actual LinkedIn link
   },
 ];
 
@@ -55,7 +58,7 @@ const Team = () => {
               Meet our talented team of developers, designers, and visionaries dedicated to building exceptional software.
             </p>
           </div>
-          
+
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
             {teamMembers.map((member, index) => (
               <Card key={index} className="overflow-hidden hover:shadow-lg transition-shadow">
@@ -68,18 +71,22 @@ const Team = () => {
                       </AvatarFallback>
                     </Avatar>
                   </div>
-                  
+
                   <div className="p-6 text-center">
                     <h3 className="text-xl font-semibold text-tkdev-800">{member.name}</h3>
                     <p className="text-tkdev-600 mb-4">{member.role}</p>
-                    
+
                     <div className="flex justify-center space-x-4">
-                      <a href="#" className="text-gray-400 hover:text-tkdev-600 transition-colors">
-                        <GitHub size={20} />
-                      </a>
-                      <a href="#" className="text-gray-400 hover:text-tkdev-600 transition-colors">
-                        <Linkedin size={20} />
-                      </a>
+                      {member.github && (
+                        <a href={member.github} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-tkdev-600 transition-colors" aria-label={`GitHub profile of ${member.name}`}>
+                          <Github size={20} />
+                        </a>
+                      )}
+                      {member.linkedin && (
+                        <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-tkdev-600 transition-colors" aria-label={`LinkedIn profile of ${member.name}`}>
+                          <Linkedin size={20} />
+                        </a>
+                      )}
                     </div>
                   </div>
                 </CardContent>

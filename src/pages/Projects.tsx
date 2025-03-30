@@ -8,29 +8,11 @@ import { Badge } from '@/components/ui/badge';
 
 const projects = [
   {
-    title: 'Community Health Tracker',
-    description: 'A web application that helps local communities track and improve health outcomes through data visualization and resource mapping.',
+    title: 'CarPickerByDev',
+    description: 'CarPicker Tool for Car Enthuasists and General Population',
     image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    tags: ['React', 'Node.js', 'MongoDB', 'Chart.js'],
-  },
-  {
-    title: 'Education Access Platform',
-    description: 'An open-source platform connecting underprivileged students with educational resources, mentors, and scholarship opportunities.',
-    image: 'https://images.unsplash.com/photo-1509062522246-3755977927d7?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    tags: ['Vue.js', 'Express', 'PostgreSQL', 'AWS'],
-  },
-  {
-    title: 'Disaster Response Coordinator',
-    description: 'A mobile-first application to coordinate disaster response efforts, manage volunteer resources, and track aid distribution.',
-    image: 'https://images.unsplash.com/photo-1530023367847-a683933f4172?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    tags: ['React Native', 'Firebase', 'Google Maps API'],
-  },
-  {
-    title: 'Sustainable Agriculture Toolkit',
-    description: 'A suite of tools helping small-scale farmers implement sustainable practices, monitor crop health, and connect with local markets.',
-    image: 'https://images.unsplash.com/photo-1500651230702-0e2d8a49d4ad?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
-    tags: ['Angular', 'Django', 'TensorFlow', 'IoT'],
-  },
+    tags: ['React', 'Node.js', 'PostgreSQL', 'TypeScript'],
+  }
 ];
 
 const Projects = () => {

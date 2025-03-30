@@ -68,7 +68,7 @@ const Contact = () => {
                     <Mail className="h-6 w-6 text-tkdev-600 mt-0.5" />
                     <div>
                       <h3 className="font-medium text-tkdev-800">Email</h3>
-                      <p className="text-gray-600">info@tkdevorg.org</p>
+                      <p className="text-gray-600">Raja6Balaji@Gmail.Com</p>
                     </div>
                   </div>
                 </CardContent>
@@ -79,23 +79,8 @@ const Contact = () => {
                   <div className="flex items-start space-x-4">
                     <Phone className="h-6 w-6 text-tkdev-600 mt-0.5" />
                     <div>
-                      <h3 className="font-medium text-tkdev-800">Phone</h3>
-                      <p className="text-gray-600">(123) 456-7890</p>
-                    </div>
-                  </div>
-                </CardContent>
-              </Card>
-              
-              <Card>
-                <CardContent className="pt-6">
-                  <div className="flex items-start space-x-4">
-                    <MapPin className="h-6 w-6 text-tkdev-600 mt-0.5" />
-                    <div>
-                      <h3 className="font-medium text-tkdev-800">Location</h3>
-                      <p className="text-gray-600">
-                        123 Tech Avenue<br />
-                        San Francisco, CA 94107
-                      </p>
+                      <h3 className="font-medium text-tkdev-800">Linkedin</h3>
+                      <p className="text-gray-600">https://www.linkedin.com/company/tkdevorgs/</p>
                     </div>
                   </div>
                 </CardContent>
