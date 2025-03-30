@@ -3,7 +3,7 @@ import React from 'react';
 import Layout from '@/components/Layout';
 import { Card, CardContent } from '@/components/ui/card';
 import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
-import { GitHub, Linkedin } from 'lucide-react';
+import { Github, Linkedin } from 'lucide-react';
 
 const teamMembers = [
   {
