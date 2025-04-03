@@ -23,7 +23,7 @@ const Projects = () => {
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-tkdev-800 mb-4">Our Projects</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore some of the impactful software applications we've built to address real-world challenges.
+              Explore the Impactful Software Applications we've Built to Address Real-World Challenges.
             </p>
           </div>
           

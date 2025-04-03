@@ -15,7 +15,7 @@ const Index = () => {
             Building Software That <span className="text-tkdev-600">Matters</span>
           </h1>
           <p className="text-xl md:text-2xl text-gray-600 max-w-3xl mx-auto mb-8">
-            TKDevOrg is a non-profit software organization dedicated to creating impactful applications.
+            TKDevOrg is a Non-Profit Software Organization Dedicated to Creating Impactful Applications.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <Button asChild size="lg" className="bg-tkdev-600 hover:bg-tkdev-700">
@@ -49,7 +49,7 @@ const Index = () => {
                 Custom Software Development
               </h3>
               <p className="text-gray-600">
-                Tailored solutions built from the ground up to meet your specific needs and goals.
+              Custom Solutions Designed Precisely for your Unique Needs and Goals
               </p>
             </div>
 
