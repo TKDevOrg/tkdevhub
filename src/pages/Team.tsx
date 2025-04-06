@@ -29,21 +29,13 @@ const teamMembers = [
     github: 'https://github.com/maksatjanjorayev', 
     linkedin: 'https://www.linkedin.com/in/maksatjan-jorayev-6327b8261/', 
   },
-  {
-    name: 'Nesan Venkatesan',
-    role: 'UX/UI Designer',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQFbcddUrvPqrw/profile-displayphoto-shrink_800_800/B56ZT_2peNGoAc-/0/1739459304053?e=1749081600&v=beta&t=jWs5K4VDcgy4kiUdyKxbJxQANJ4gRrIZHcrHws7qW4Q',
-    initials: 'NV',
-    github: 'https://github.com/nesanvenkatesan', 
-    linkedin: 'https://www.linkedin.com/in/nesan-venkatesan/', 
-  },
     {
     name: 'Sidhant Parashar',
     role: 'Product Manager',
-    image: 'https://media.licdn.com/dms/image/v2/D5603AQEn7HL-sgUo_A/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1714801230852?e=1749081600&v=beta&t=UaEpsv_75gI82C3uPUk_sxaVq2wXhnkr0dKqTWo8Y88',
-    initials: 'SP',
-    github: 'https://github.com/tushariyer', 
-    linkedin: 'https://www.linkedin.com/in/sidhant-parashar-75321220b/', 
+    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
+    initials: 'TI',
+    github: 'https://github.com/tushariyer', // Add actual GitHub link
+    linkedin: 'https://www.linkedin.com/in/tushariyer/', // Add actual LinkedIn link
   },
 ];
 
