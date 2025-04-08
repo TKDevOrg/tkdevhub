@@ -12,6 +12,12 @@ const projects = [
     description: 'CarPicker Tool for Car Enthuasists and General Population',
     image: 'https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80',
     tags: ['React', 'Node.js', 'PostgreSQL', 'TypeScript'],
+  },
+  {
+    title: 'Madras Meals',
+    description: 'Authentic Indian Meals Cooked From Home',
+    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTinCKGPNr2g5zx4Qet43b2n3rGXhO-_ppJww&s',
+    tags: ['React', 'Node.js', 'PostgreSQL', 'TypeScript'],
   }
 ];
 
@@ -23,7 +29,7 @@ const Projects = () => {
           <div className="text-center mb-12">
             <h1 className="text-4xl font-bold text-tkdev-800 mb-4">Our Projects</h1>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Explore the Impactful Software Applications we've Built to Address Real-World Challenges.
+              Explore the Impactful Software Applications we've Built for Clients.
             </p>
           </div>
           

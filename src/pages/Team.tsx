@@ -28,16 +28,7 @@ const teamMembers = [
     initials: 'MJ',
     github: 'https://github.com/maksatjanjorayev', 
     linkedin: 'https://www.linkedin.com/in/maksatjan-jorayev-6327b8261/', 
-  },
-    {
-    name: 'Sidhant Parashar',
-    role: 'Product Manager',
-    image: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-1.2.1&auto=format&fit=facearea&facepad=2&w=300&h=300&q=80',
-    initials: 'TI',
-    github: 'https://github.com/tushariyer', // Add actual GitHub link
-    linkedin: 'https://www.linkedin.com/in/tushariyer/', // Add actual LinkedIn link
-  },
-];
+  }
 
 const Team = () => {
   return (
