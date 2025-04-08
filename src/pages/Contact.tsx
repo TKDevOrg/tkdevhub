@@ -5,7 +5,6 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Mail, Phone, MapPin } from 'lucide-react';
 
 const Contact = () => {
-<<<<<<< Updated upstream
   const { toast } = useToast();
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [formData, setFormData] = useState({
@@ -44,8 +43,6 @@ const Contact = () => {
     }, 1500);
   };
 
-=======
->>>>>>> Stashed changes
   return (
     <Layout>
       <section className="py-16">
@@ -85,15 +82,6 @@ const Contact = () => {
             </div>
 
             <div className="md:col-span-2">
-              <iframe
-                src="https://docs.google.com/forms/d/e/1FAIpQLSeOrNdiuPclDOJgZaSZEFoI6JSMpFOokvsP3NQAiSJ7oj0tXw/viewform?embedded=true"
-                width="100%"
-                height="850"
-                frameBorder="0"
-                title="Contact Form"
-              >
-                Loading…
-              </iframe>
             </div>
           </div>
         </div>

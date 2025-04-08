@@ -29,6 +29,7 @@ const teamMembers = [
     github: 'https://github.com/maksatjanjorayev', 
     linkedin: 'https://www.linkedin.com/in/maksatjan-jorayev-6327b8261/', 
   }
+]
 
 const Team = () => {
   return (
