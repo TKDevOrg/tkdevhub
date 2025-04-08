@@ -29,6 +29,7 @@ const teamMembers = [
     github: 'https://github.com/maksatjanjorayev', 
     linkedin: 'https://www.linkedin.com/in/maksatjan-jorayev-6327b8261/', 
   },
+<<<<<<< Updated upstream
   {
     name: 'Nesan Venkatesan',
     role: 'UX/UI Designer',
@@ -45,6 +46,8 @@ const teamMembers = [
     github: 'https://github.com/tushariyer', 
     linkedin: 'https://www.linkedin.com/in/sidhant-parashar-75321220b/', 
   },
+=======
+>>>>>>> Stashed changes
 ];
 
 const Team = () => {
