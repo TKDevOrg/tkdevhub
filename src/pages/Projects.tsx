@@ -59,10 +59,6 @@ const Projects = () => {
                   </CardDescription>
                 </CardContent>
                 <CardFooter className="flex justify-between">
-                  <Button variant="outline" size="sm" className="border-tkdev-600 text-tkdev-600 hover:bg-tkdev-50">
-                    <Github className="mr-2 h-4 w-4" />
-                    View Code
-                  </Button>
                   <Button size="sm" className="bg-tkdev-600 hover:bg-tkdev-700">
                     <ExternalLink className="mr-2 h-4 w-4" />
                     Live Demo
