@@ -1,0 +1,6 @@
+[build]
+  command = "your_build_command"  # e.g., "npm run build"
+  publish = "your_publish_directory" # e.g., "build"
+
+[functions]
+  directory = "netlify/functions" # Keep this if you are using Netlify Functions
